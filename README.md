@@ -36,7 +36,7 @@ sudo apt-get update
 To be able to use `catkin build`, the sources must be placed in workspace. For this, we will create a folder with the workspace name `my_workspace` in our home folder (as an example) and add a subfolder named `src`. Into this subfolder we then simply clone this repository. That's it!
 ```{.sh}
 mkdir -p ~/my_workspace/src
-cd ~/myworkspace/src
+cd ~/my_workspace/src
 git clone https://github.com/JonathanSchmalhofer/octomap_catkin_gtest.git
 ```
 
